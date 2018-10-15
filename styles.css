@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, rgb(86, 138, 255), rgb(0, 52, 200));
+    color: whitesmoke;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2rem;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+form {
+    font-family: 'Neucha', cursive;
+    font-size: 1.5rem;
+}
+
+button {
+    width: 65px;
+    background-color: #08a045;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.25);
+}
+
+button:active {
+    background-color: #08a045;
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.5);
+    transform: translateY(4px);
+}
+
+#colorPicker {
+    cursor: pointer;
+    background: white;
+    padding: 3px;
+    height: 30px;
+    width: 65px;
+    border-radius: 10px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+  background: white;
+}
+
+input[type=number] {
+    width: 6em;
+    height: 1.5rem;
+    font-size: 1.25rem;
+}
